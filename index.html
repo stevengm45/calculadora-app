@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- muestra el sitio correctamente según el dispositivo del usuario -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css"> 
+  <title>Reto 2 | Calculator app</title>
+
+  <!-- Siéntase libre de eliminar estos estilos o personalizarlos en su propia hoja de estilo.👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main">
+    <div class="calculator">
+      <div class="top-bar">
+        <div class="texto">
+          <p class="calc">calc</p>
+        </div>
+        <div class="btnTheme">
+          THEME
+          <div class="btnDiv">
+            <div class="btnNumber">
+              1  2  3
+            </div>
+            <div class="btns">
+              <button class="switch" id="btnDark"></button>
+              <button class="switch" id="btnLight"></button>
+              <button class="switch" id="btnNeon"></button>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <div class="screen">
+        <div id="screen-operation" class="screen_top">
+          0
+        </div>
+        <div id="screen-result" class="screen_content">
+          0
+        </div>
+      </div>
+        <div id="buttons" class="buttons">
+
+          <div id="button-7" class="button">7</div>
+          <div id="button-8" class="button">8</div>
+          <div id="button-9" class="button">9</div>
+          <div id="button-del" class="button">DEL</div>
+
+          <div id="button-4" class="button">4</div>
+          <div id="button-5" class="button">5</div>
+          <div id="button-6" class="button">6</div>
+          <div id="button-add" class="button">+</div>
+          
+          <div id="button-1" class="button">1</div>
+          <div id="button-2" class="button">2</div>
+          <div id="button-3" class="button">3</div>
+          <div id="button-subtract" class="button">-</div>
+
+          <div id="button-point" class="button">.</div>
+          <div id="button-0" class="button">0</div>
+          <div id="button-divide" class="button">/</div>
+          <div id="button-multiply" class="button">*</div>
+
+          <div id="button-sign" class="button">+/-</div>
+          <div id="button-percent" class="button">%</div>
+          <div id="button-clear" class="button">C</div>
+          <div id="button-result" class="button">=</div>
+          
+          
+        </div>
+      
+    </div>
+  </main>
+
+  
+  <div class="attribution">
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+  <script src="mode.js"></script>
+</body>
+</html>
